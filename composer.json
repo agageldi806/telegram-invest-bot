@@ -1,9 +1,18 @@
 {
-  "require": {
-    "php": ">=7.4"
-  },
-  "scripts": {
-    "start": "php bot.php"
-  }
+  "name": "telegram-invest-bot",
+  "description": "A Telegram investment bot",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "irazasyed/telegram-bot-sdk": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require-dev": {},
+  "config": {
+    "optimize-autoloader": true
+  }
 }
-
