@@ -1,0 +1,9 @@
+{
+  "require": {
+    "php": ">=7.4"
+  },
+  "scripts": {
+    "start": "php bot.php"
+  }
+}
+
